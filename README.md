@@ -1,3 +1,5 @@
+
+
 # Rewrite Git History
 
 ***Usecase: Remove all files and sub-folders within a given folder from the entire commit history of a git repository, while maintaining the commit structure and branches.***
@@ -49,5 +51,7 @@ Remove the following folder paths from the history of https://github.com/django
 
  
 
+4. Check history has been deleted 
+       git log -1 <commit-id>
 
-
+Note: engine folder has all the data related to task.
